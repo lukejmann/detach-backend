@@ -26,8 +26,7 @@ func (tM *TimingManager) updateDueSessions(startTime time.Time, endTime time.Tim
 		notif := m.Notif{
 			DeviceToken: session.DeviceToken,
 			SessionID:   session.ID,
-			// SentTime:
-			Text: "Blocking Session Completed.",
+			Text:        "Focus Session Completed",
 		}
 		tM.notifManager.SendRefreshForegroundNotification(notif)
 
