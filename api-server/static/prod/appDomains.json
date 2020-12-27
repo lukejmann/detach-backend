@@ -1,0 +1,235 @@
+[
+  {
+    "name": "Tinder",
+    "urls": [
+      "gotinder.com",
+      "tindersparks.com"
+    ]
+  },
+  {
+    "name": "Bumble",
+    "urls": [
+      "bumble.com",
+      "bumblecdn.com"
+    ]
+  },
+  {
+    "name": "Hinge",
+    "urls": [
+      "hingeaws.com"
+    ]
+  },
+  {
+    "name": "Google News",
+    "urls": [
+      "newsstand.googleusercontent.com"
+    ]
+  },
+  {
+    "name": "Fox News",
+    "urls": [
+      "foxnews.com"
+    ]
+  },
+  {
+    "name": "NBC News",
+    "urls": [
+      "s-nbcnews.com",
+      "nbcnews.com"
+    ]
+  },
+  {
+    "name": "BBC News",
+    "urls": [
+      "api.bbc.co.uk",
+      "bbcverticals.com",
+      "bbci.co.uk"
+    ]
+  },
+  {
+    "name": "Washington Post",
+    "urls": [
+      "wpdigital.net",
+      "washingtonpost.com"
+    ]
+  },
+  {
+    "name": "NY Times",
+    "urls": [
+      "nytimes.com",
+      "nyt.com"
+    ]
+  },
+  {
+    "name": "CNN",
+    "urls": [
+      "cnn.io",
+      "cnn.com",
+      "turner.com"
+    ]
+  },
+  {
+    "name": "Amazon",
+    "urls": [
+      "amazon.com",
+      "amazon.sa"
+    ]
+  },
+  {
+    "name": "eBay",
+    "urls": [
+      "ebay.com",
+      "ebayimg.com"
+    ]
+  },
+  {
+    "name": "Facebook",
+    "urls": [
+      "fbcdn.net",
+      "facebook.com"
+    ]
+  },
+  {
+    "name": "Instagram",
+    "urls": [
+      "i.instagram.com",
+      "cdn.instagram.com",
+      "graph.instagram.com",
+      "instagram.com"
+    ]
+  },
+  {
+    "name": "Snapchat",
+    "urls": [
+      "app.snapchat.com",
+      "api.snapchat.com",
+      "mvm.snapchat.com"
+    ]
+  },
+  {
+    "name": "Twitter",
+    "urls": [
+      "pbs.twimg.com",
+      "api.twitter.com",
+      "video.twimg.com",
+      "twitter.com"
+    ]
+  },
+  {
+    "name": "Messenger",
+    "urls": [
+      "graph.facebook.com",
+      "web.facebook.com",
+      "edge-mqtt.facebook.com"
+    ]
+  },
+  {
+    "name": "WhatsApp",
+    "urls": [
+      "fbcdn.net",
+      "whatsapp.net"
+    ]
+  },
+  {
+    "name": "TikTok",
+    "urls": [
+      "musical.ly",
+      "muscdn.net"
+    ]
+  },
+  {
+    "name": "Reddit",
+    "urls": [
+      "reddit.com",
+      "redditmedia.com",
+      "redditstatic.com",
+      "redd.it"
+    ]
+  },
+  {
+    "name": "Pinterest",
+    "urls": [
+      "api.pinterest.com",
+      "pinimg.com",
+      "tkr.pinterest.com",
+      "pinterest.ru"
+    ]
+  },
+  {
+    "name": "Tumblr",
+    "urls": [
+      "tumblr.com"
+    ]
+  },
+  {
+    "name": "YouTube",
+    "urls": [
+      "youtubei.googleapis.com",
+      "googlevideo.com"
+    ]
+  },
+  {
+    "name": "Twitch",
+    "urls": [
+      "twitch.tv"
+    ]
+  },
+  {
+    "name": "Netflix",
+    "urls": [
+      "netflix.com",
+      "nflxvideo.net"
+    ]
+  },
+  {
+    "name": "Hulu",
+    "urls": [
+      "hulu.com",
+      "hulustream.com",
+      "conviva.com"
+    ]
+  },
+  {
+    "name": "HBO",
+    "urls": [
+      "hbomax.com",
+      "hbo.com"
+    ]
+  },
+  {
+    "name": "Disney+",
+    "urls": [
+      "disneyplus.com",
+      "dssott.com"
+    ]
+  },
+  {
+    "name": "Prime Video",
+    "urls": [
+      "amazonvideo.com",
+      "media-amazon.com"
+    ]
+  },
+  {
+    "name": "Gmail",
+    "urls": [
+      "inbox.google.com",
+      "mail.google.com"
+    ]
+  },
+  {
+    "name": "Outlook",
+    "urls": [
+      "outlook.com",
+      "outlook.office365.com"
+    ]
+  },
+  {
+    "name": "Slack",
+    "urls": [
+      "slack.com",
+      "slackb.com",
+      "slacka.com"
+    ]
+  }
+]

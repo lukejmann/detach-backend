@@ -1,0 +1,6 @@
+cert5.p12 requires that the linux server trusts the GeoTrustGlobalCA
+
+To trust:
+
+cp GeoTrust_Global_CA.pem /usr/local/share/ca-certificates/geotrust_root.crt
+update-ca-certificates

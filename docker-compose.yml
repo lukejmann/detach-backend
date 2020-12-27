@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  timing:
+    build: "./timing-server"
+  forwarder:
+    build: "./forwarding-server"
+    ports:
+      - "80:80"
+      - "443:443"
+  api:
+    build: "./api-server"
+  mongo:
+    image: mongo:4.2.2
+    ports:
+      - 27017:27017
