@@ -23,7 +23,7 @@ func main() {
 	certManager := autocert.Manager{
 		Prompt:     autocert.AcceptTOS,
 		Cache:      autocert.DirCache("cert-cache"),
-		HostPolicy: autocert.HostWhitelist("api1.detachapp.com"),
+		HostPolicy: autocert.HostWhitelist("testing.detachapp.com"),
 	}
 
 	server := &http.Server{
@@ -35,7 +35,7 @@ func main() {
 	}
 
 	go http.ListenAndServe(":80", certManager.HTTPHandler(mux))
-	go server.ListenAndServeTLS("", "")
+	server.ListenAndServeTLS("", "")
 }
 
 func getBestApiServerHost() string {
@@ -80,6 +80,10 @@ func handleAPIRequest(w http.ResponseWriter, r *http.Request) error {
 	}
 
 	w.Write(body)
+
+	//TODO: 1. Check certificate
+	//TODO: 2. Forward to API Server via docker or something
+	//TODO: 3. Return values written by API Server
 
 	return nil
 }
