@@ -27,15 +27,16 @@ func main() {
 	}
 
 	server := &http.Server{
-		Addr:    ":443",
+		Addr:    ":https",
 		Handler: mux,
 		TLSConfig: &tls.Config{
 			GetCertificate: certManager.GetCertificate,
 		},
 	}
 
-	go http.ListenAndServe(":80", certManager.HTTPHandler(mux))
-	server.ListenAndServeTLS("", "")
+	go http.ListenAndServe(":http", certManager.HTTPHandler(nil))
+
+	log.Fatal(server.ListenAndServeTLS("", "")) //Key and cert are coming from Let's Encrypt
 }
 
 func getBestApiServerHost() string {
