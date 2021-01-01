@@ -23,7 +23,7 @@ func main() {
 	certManager := autocert.Manager{
 		Prompt:     autocert.AcceptTOS,
 		Cache:      autocert.DirCache("cert-cache"),
-		HostPolicy: autocert.HostWhitelist("testing.detachapp.com"),
+		HostPolicy: autocert.HostWhitelist("api.detachapp.com"),
 	}
 
 	server := &http.Server{
